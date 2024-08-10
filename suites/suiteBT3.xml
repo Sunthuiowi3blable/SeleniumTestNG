@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite test Assert BT3">
+    <test name="Test Assert1">
+        <classes>
+            <class name="BT3.Assert1"></class>
+        </classes>
+    </test>
+
+    <test name="Test Assert2">
+        <classes>
+            <class name="BT3.Assert2"></class>
+        </classes>
+    </test>
+</suite>

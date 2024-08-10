@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite BT5">
+    <test name="BT5">
+        <classes>
+            <class name="BT5BT6BT7BT8.testcases.LoginTest">
+                <methods>
+                    <include name="testLoginSuccess"/>
+                </methods>
+            </class>
+            <class name="BT5BT6BT7BT8.testcases.DashboardTest"></class>
+            <class name="BT5BT6BT7BT8.testcases.CategoryTest"></class>
+            <class name="BT5BT6BT7BT8.testcases.AddNewProductTest"></class>
+            <class name="BT5BT6BT7BT8.testcases.AllProductsTest"></class>
+        </classes>
+    </test>
+</suite>

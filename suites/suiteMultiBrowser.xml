@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Multi Bowser" verbose="1">
+
+    <test name="Multi Browser 1">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="BT5BT6BT7BT8.testcases.LoginTest"></class>
+        </classes>
+    </test>
+
+</suite>
